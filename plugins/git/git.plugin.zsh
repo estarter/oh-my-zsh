@@ -419,8 +419,6 @@ alias gtl='gtl(){ git tag --sort=-v:refname -n --list "${1}*" }; noglob gtl'
 alias gk='\gitk --all --branches &!'
 alias gke='\gitk --all $(git log --walk-reflogs --pretty=%h) &!'
 
-alias gw='git worktree'
-
 unset git_version
 
 # Logic for adding warnings on deprecated aliases or functions
